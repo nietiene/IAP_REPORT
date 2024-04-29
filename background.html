@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Background Form</title>
+<style>
+    body{
+        background-color: rgb(173, 173, 173);
+    }
+    form{
+box-shadow: 1px 1px 7px blue;
+        width: 30%;
+        height: 300px;
+        margin: 100px auto;
+    }
+    .input{
+margin-left: 210px;
+  background-color: rgb(134, 134, 134);
+height: 300px;
+
+    }
+    .input input{
+        width: 95%;
+        height: 30px;
+        background-color: rgb(223, 223, 223);
+border: none;
+outline-color: rgb(0, 81, 255);
+color: blue;
+
+    }
+    .input label{
+        font-size: large;
+        font-weight: bold;
+        color: rgb(4, 4, 114);
+    }
+    .input button{
+        width: 99%;
+        padding: 10px;
+        background-color: rgb(0, 44, 238);
+        border: none;
+    }
+    .input button:hover{
+        background-color: rgb(132, 144, 255);
+        color: white;
+    }
+    img{
+        width: 51.7%;
+        margin-bottom: 13px;
+        margin-top: -80%;
+        height: 301px;
+
+    }
+    .name{
+        margin-top: -280px;
+        margin-left: 40px;
+    }
+    .icon{
+  display: flex; 
+  margin-left: 40px;
+
+}
+
+.icon i {
+  margin-right: 20px; 
+  margin-top: -200px;
+
+}
+
+.icon i:hover {
+height: 15px;
+width: 15px;
+  background-color: rgb(0, 38, 255); 
+  border-radius: 8px;
+}
+  
+ h1{
+    text-align: center;
+    animation: ani 2s linear;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+   margin-bottom: -80px;
+}
+::placeholder{
+    color: blue;
+    font-family: serif;
+    font-size: 15px;
+}
+@keyframes ani{
+0%{
+    transform: translateY(-100%);
+    color: rgb(0, 0, 0);
+}
+25%{
+    color: rgb(0, 0, 0);
+}
+50%{
+    transform: translateY(100%);
+
+}
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1><span style="color: blue;">LOGIN</span> <span style="color: rgb(8, 8, 133);">FORM</span></h1>
+    <form action="">
+    
+    <div class="container">
+        <div class="input">
+            <label for="firstname">Firstname</label>
+            <input type="text" placeholder="Enter Your Firstname"><br>
+            
+            <label for="passord">Password</label>
+            <input type="password" placeholder="Enter Your Password"><br><br>
+<button>Submit</button>
+        </div>
+        <div class="image">
+            <img src="bg.jpg" alt="" srcset="">
+        <div class="name">
+     HELLO WORLD THIS <br>
+             IS MY   LOGIN FORM
+        </div>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+    </div>
+</form>
+</body>
+</html>
